@@ -1,30 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
-import { 
-  useFonts, 
-  Nunito_600SemiBold, 
-  Nunito_700Bold, 
+import {
+  useFonts,
+  Nunito_600SemiBold,
+  Nunito_700Bold,
   Nunito_800ExtraBold
-} from '@expo-google-fonts/nunito';
+} from '@expo-google-fonts/nunito'
 
-import AppStack from './src/routes/AppStack';
-export default function App() {
-  let [fontsLoaded] = useFonts({
+import AppStack from './src/routes/AppStack'
+export default function App () {
+  const [fontsLoaded] = useFonts({
     Nunito_600SemiBold,
     Nunito_700Bold,
-    Nunito_800ExtraBold,
-  });
+    Nunito_800ExtraBold
+  })
 
   if (!fontsLoaded) {
-    return null;
+    return null
   } else {
     return (
       <>
-        <StatusBar backgroundColor="transparent"/>
+        <StatusBar backgroundColor='transparent' />
         <AppStack />
       </>
-    );
+    )
   }
 };

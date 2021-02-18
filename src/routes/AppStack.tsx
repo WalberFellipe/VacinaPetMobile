@@ -1,30 +1,27 @@
-import React from 'react';
+import React from 'react'
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 
-const { Navigator, Screen } = createStackNavigator();
+import Login from '../pages/Login'
+// import Header from '../components/Header'
 
-import Login from '../pages/Login';
-import Header from '../components/Header'
+const { Navigator, Screen } = createStackNavigator()
 
-export default function Routes() {
-    return(
-        <NavigationContainer>
-            <Navigator 
-                screenOptions= {{ 
-                  headerShown: false,cardStyle: { backgroundColor: '#f2f3f5'}
-                }}>
-                <Screen 
-                name="Login" 
-                component={Login}
-                options={{
-                    headerShown: true,
-                    header: () => <Header title="Login"/>
-                }}
-                />
-            </Navigator>
+export default function Routes () {
+  return (
+    <NavigationContainer>
+      <Navigator
+        screenOptions={{
+          headerShown: false, cardStyle: { backgroundColor: '#f2f3f5' }
+        }}
+      >
+        <Screen
+          name='Login'
+          component={Login}
+        />
+      </Navigator>
 
-        </NavigationContainer>
-    );
+    </NavigationContainer>
+  )
 }
