@@ -21,6 +21,8 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
     "react-native-elements": "^3.2.0",
     "react-native-gesture-handler": "~1.8.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-responsive-screen": "^1.4.2",
     "react-native-web": "~0.13.12",
     "standard": "^16.0.3"
   },
