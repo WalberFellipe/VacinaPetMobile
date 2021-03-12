@@ -94,6 +94,7 @@ export default function Login() {
             <Text style={styles.footerButtonText}> Cadastre-se!</Text>
           </RectButton>
         </View>
+        <View></View>
       </View>
     </KeyboardAwareScrollView>
   );

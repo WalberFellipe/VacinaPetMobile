@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     fontFamily: "Nunito_600SemiBold",
     color: "#17C6D1",
     fontSize: 22,
-    paddingRight: "42%",
+    paddingRight: "25%",
+    paddingLeft: "25%",
   },
 });
