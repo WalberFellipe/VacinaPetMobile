@@ -6,7 +6,7 @@
 
 ### 🏠 [Homepage](https://github.com/WalberFellipe/NLW2)
 
-### Prerequisite
+### Pre requisite
 
 Before you begin, you will need to have the following tools installed on your machine:
 [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/),[EXPO] (https://docs.expo.io) and a mobile emulator.
