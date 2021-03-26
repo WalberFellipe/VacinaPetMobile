@@ -41,7 +41,7 @@ expo install or yarn install
 expo start or yarn start
 ```
 
-### Server will start on the port:19000 - [Access](exp://192.168.1.7:19000)
+### In expo click on "Run on Android device/emulator" or "Run on iOS simulator" to run on emulator or you can scan QR Code to show project on your Phone.
 
 <h4 align="center"> 
 	🚧  Starting Metro Bundler. 🚀 🚧
