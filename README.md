@@ -9,7 +9,7 @@
 ### Pre requisite
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/), [Expo] (https://docs.expo.io) and a mobile emulator.
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://docs.expo.io) and a mobile emulator.
 In addition, u nedd to have an editor to work with the code as [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Running the application
