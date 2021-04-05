@@ -13,6 +13,10 @@ export default function Home() {
   function HandleNavigationToPetRegister() {
     navigation.navigate("PetRegister");
   }
+
+  function HandleNavigationToInfo() {
+    navigation.navigate("Info");
+  }
   return (
     <View style={styles.container}>
       <View></View>
@@ -22,6 +26,12 @@ export default function Home() {
       >
         <Text style={styles.registerButtonText}>
           Clique aqui para cadastrar seu pet
+        </Text>
+      </RectButton>
+
+      <RectButton style={styles.infoButton} onPress={HandleNavigationToInfo}>
+        <Text style={styles.infoButtonText}>
+          Saiba mais sobre o fluxo de vacinação
         </Text>
       </RectButton>
     </View>
@@ -50,6 +60,26 @@ const styles = StyleSheet.create({
     marginRight: "15%",
   },
   registerButtonText: {
+    color: "#000000",
+    fontFamily: "Nunito_800ExtraBold",
+    fontSize: 15,
+  },
+
+  infoButton: {
+    backgroundColor: "#F5F5F5",
+    borderColor: "#1670AE",
+    color: "#1670AE",
+    borderWidth: 1,
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: "80%",
+    width: "70%",
+    height: "10%",
+    marginLeft: "15%",
+    marginRight: "15%",
+  },
+  infoButtonText: {
     color: "#000000",
     fontFamily: "Nunito_800ExtraBold",
     fontSize: 15,

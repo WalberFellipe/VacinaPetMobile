@@ -23,6 +23,7 @@ export default function Login() {
   }
 
   return (
+    //Subir Keyboard Ios e Android
     <KeyboardAwareScrollView
       enableOnAndroid
       resetScrollToCoords={{ x: 0, y: 0 }}

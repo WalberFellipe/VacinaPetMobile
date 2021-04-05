@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import Home from "../pages/Home";
 import Header from "../components/Header";
 import PetRegister from "../pages/PetRegister";
+import Info from "../pages/Info";
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -39,6 +40,16 @@ export default function Routes() {
             headerShown: true,
             header: (props) => (
               <Header title="Cadastrar Pet" showCancel={false} {...props} />
+            ),
+          }}
+        />
+        <Screen
+          name="Info"
+          component={Info}
+          options={{
+            headerShown: true,
+            header: (props) => (
+              <Header title="Vacinação" showCancel={false} {...props} />
             ),
           }}
         />

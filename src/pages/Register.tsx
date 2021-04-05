@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   },
 
   registerTitle: {
-    marginTop: "25%",
+    marginTop: "5%",
     fontFamily: "Nunito_800ExtraBold",
     fontSize: hp("8%"),
     color: "#17C6D1",
