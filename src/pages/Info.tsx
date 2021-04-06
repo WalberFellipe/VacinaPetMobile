@@ -40,7 +40,6 @@ export default function Info() {
         <View style={styles.row1}>
           <Text style={styles.column1}>Antirrábica</Text>
           <Text style={styles.column2}>5 a 6 meses de vida</Text>
-          <Text style={styles.column3}>Antirrábica</Text>
         </View>
 
         <View style={styles.row2}>
@@ -119,15 +118,15 @@ const styles = StyleSheet.create({
   },
   column1: {
     fontFamily: "Nunito_700Bold",
-    fontSize: 12,
+    fontSize: 15,
   },
   column2: {
     fontFamily: "Nunito_700Bold",
-    fontSize: 12,
+    fontSize: 15,
   },
   column3: {
     fontFamily: "Nunito_700Bold",
-    fontSize: 12,
+    fontSize: 15,
   },
   extraInfo: {
     alignItems: "center",

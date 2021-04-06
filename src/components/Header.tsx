@@ -27,13 +27,12 @@ export default function Header({
 
 const styles = StyleSheet.create({
   container: {
-    padding: 24,
+    padding: 22,
     backgroundColor: "#f9fafc",
     borderBottomWidth: 1,
     borderColor: "#dde3f0",
-    paddingTop: 44,
+    paddingTop: "5%",
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
   },
 
@@ -42,6 +41,7 @@ const styles = StyleSheet.create({
     color: "#17C6D1",
     fontSize: 22,
     paddingRight: "25%",
-    paddingLeft: "25%",
+    paddingLeft: "32%",
+    marginTop: "2%",
   },
 });
